@@ -1,6 +1,6 @@
 import { NavBar } from './Components/NavBar';
 import { Outlet } from 'react-router-dom';
-import PetConnectLogoMini from './assets/PetConnectLogoMini.png';
+import DemoSiteLogoSM from './assets/DemoSiteLogoSM.png';
 import './Layout.css'; 
 
 export function Layout() {
@@ -8,7 +8,7 @@ export function Layout() {
         <div className="container">
             <header>
                 <h1 className="logo">
-                    <img src={PetConnectLogoMini} alt="Team Laika logo" /> Pet Connect
+                    <img src={DemoSiteLogoSM} alt="Habitual Nightmare Logo" />‎ ‎ Dia Marie
                 </h1>
             </header>
             <NavBar />
