@@ -7,12 +7,13 @@ const Home = () => {
         <div>
             <div>
                 <img src={PetConnectLogo} alt="Team Laika logo" />
-                <h1>Welcome to PetConnect!</h1>
+                <h1>Welcome!</h1>
                 <nav>
-                    <ul id="simplenav">
-                        <li>
-                            <Link to="/ServiceSearch">Find a Service</Link> {/* Link to ServiceSearch page */}
-                        </li>
+                    If you're looking to learn more about me, you've come to the right place! This is my demo site. I'm a new, passionate developer with base-level experience in 
+                    various web technologies. - please check out some of these links to get started:
+                    <ul>
+                        <li><Link to="/AboutMe">About Me</Link></li>
+                        <li><Link to="/Skills">My Skills</Link></li>
                     </ul>
                 </nav>
             </div>

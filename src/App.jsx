@@ -8,15 +8,8 @@ import ServiceSearch from './Pages/ServiceSearch';
 import AddService from './Pages/Provider/AddService';
 import Pets from './Pages/User/Pets';
 import AddPet from './Pages/User/AddPet';
-import AddCat from './Pages/User/AddCat';
-import AddDog from './Pages/User/AddDog';
-import DeletePet from './Pages/User/DeletePet';
-import PetInfo from './Pages/User/PetInfo';
 import Settings from './Pages/Settings'; 
-import AboutUs from './Pages/AboutUs';
-import RegisterForm from './Pages/RegisterForm';
-import LogoutPage from './Pages/LogoutPage';
-import WelcomeBack from './Pages/WelcomeBack';
+import AboutMe from './Pages/AboutMe';
 import Profile from './Pages/Profile';
 import './App.css';
 import './Layout';
@@ -35,17 +28,9 @@ const App = () => {
             <Route path="/AddService" element={<AddService />} /> {/* Route for AddService */}
             <Route path="/AddPet" element={<AddPet />} /> {/* Route for AddPet */}
             <Route path="/Settings" element={<Settings />} /> {/* Route for Provider Settings */}
-            <Route path="/AboutUs" element={<AboutUs />} /> {/* Route for AddService */}
-            <Route path="/RegisterForm" element={<RegisterForm />} /> {/* Route for RegisterForm */}
+            <Route path="/AboutMe" element={<AboutMe />} /> {/* Route for AddService */}
             <Route path="/Profile" element={<Profile />} />
             <Route path="/Pets" element={<Pets />} /> {/* Route for Pets */}
-            <Route path="/AddCat" element={<AddCat />} /> {/* Route for AddCat */}
-            <Route path="/AddDog" element={<AddDog />} /> {/* Route for AddDog */}
-            <Route path="/AddPet" element={<AddPet />} /> {/* Route for AddPet */}
-            <Route path="/DeletePet/:petId" element={<DeletePet />} /> {/* Route for DeletePet */}
-            <Route path="/PetInfo/:petId" element={<PetInfo />} /> {/* Route for PetInfo */}
-            <Route path="/LogoutPage" element={<LogoutPage />} /> {/* Route for LogoutPage */}
-            <Route path="/WelcomeBack" element = {<WelcomeBack />} /> {/* Route for WelcomeBack*/}
           </Route>
         </Routes>
       </Router>
