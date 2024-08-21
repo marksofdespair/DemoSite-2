@@ -36,7 +36,7 @@ const App = () => {
       </Router>
       <br></br>
       <br></br>
-      <footer>© Team Laika Capstone Project 2024</footer>
+      <footer>© Nightmare Panthera 2024</footer>
     </div>
   );
 };
