@@ -10,8 +10,8 @@ export function NavBar() {
         <Link to="/Profile">Profile</Link>
         <Link to="/Skills">Skills</Link>
         <Link to="/Pets">Pets</Link>
-        <Link to="/ServiceSearch">Search for Services</Link>
         <Link to="/AboutMe">About Me</Link>
+        <Link to="/ServiceSearch">Search for Services</Link>
     </ul>
   );
 }

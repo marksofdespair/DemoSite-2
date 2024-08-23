@@ -8,7 +8,7 @@ export function Layout() {
         <div className="container">
             <header>
                 <h1 className="logo">
-                    <img src={DemoSiteLogoSM} alt="Habitual Nightmare Logo" />‎ ‎ Dia Marie - Full Stack Web Developer
+                    <img src={DemoSiteLogoSM} alt="Habitual Nightmare Logo" />‎‎ Dia Marie - Full Stack Web Developer
                 </h1>
             </header>
             <NavBar />
