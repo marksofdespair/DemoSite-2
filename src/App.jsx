@@ -26,7 +26,6 @@ const App = () => {
             <Route path="/ServiceSearch" element={<ServiceSearch />} /> {/* Route for ServiceSearch */}
             <Route path="/AddService" element={<AddService />} /> {/* Route for AddService */}
             <Route path="/AddPet" element={<AddPet />} /> {/* Route for AddPet */}
-            <Route path="/Settings" element={<Settings />} /> {/* Route for Provider Settings */}
             <Route path="/AboutMe" element={<AboutMe />} /> {/* Route for AddService */}
             <Route path="/Profile" element={<Profile />} />
             <Route path="/Pets" element={<Pets />} /> {/* Route for Pets */}
