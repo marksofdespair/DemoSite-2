@@ -19,7 +19,10 @@ const Skills = () => {
             <br></br>
             <br></br>
                 <p><h1>Interactivity</h1></p>
+                    <p>How about we test your memory?</p>
                 <p><h1>Transparency</h1></p>
+                <p><h1></h1></p>
+                <p><h1></h1></p>
                 <p><h1></h1></p>
         </div>
     )
