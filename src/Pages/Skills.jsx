@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import Game from '../Components/Game';
 
 const Skills = () => {
     return (
@@ -20,6 +21,10 @@ const Skills = () => {
             <br></br>
                 <p><h1>Interactivity</h1></p>
                     <p>How about we test your memory?</p>
+                    <div className="Memory">
+                        <h1>Memory Game</h1>
+                        <Game />
+                    </div>
                 <p><h1>Transparency</h1></p>
                 <p><h1></h1></p>
                 <p><h1></h1></p>
