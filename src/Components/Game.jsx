@@ -1,12 +1,15 @@
 import React, { useState, useEffect } from 'react';
 import Board from './Board';
 import './Game.css';
+import '../assets/CardBack.png';
+import '../assets/CardFront1.png';
+import '../assets/CardFront2.png';
 
 const initialCards = [
-  { id: 1, image: '/path/to/image1.png', isFlipped: false, isMatched: false },
-  { id: 2, image: '/path/to/image1.png', isFlipped: false, isMatched: false },
-  { id: 3, image: '/path/to/image2.png', isFlipped: false, isMatched: false },
-  { id: 4, image: '/path/to/image2.png', isFlipped: false, isMatched: false },
+  { id: 1, image: 'CardFront1.png', isFlipped: false, isMatched: false },
+  { id: 2, image: 'CardFront1.png', isFlipped: false, isMatched: false },
+  { id: 3, image: 'CardFront2.png', isFlipped: false, isMatched: false },
+  { id: 4, image: 'CardFront2.png', isFlipped: false, isMatched: false },
   // Will add more pairs as needed
 ];
 
