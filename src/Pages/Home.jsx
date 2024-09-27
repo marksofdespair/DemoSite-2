@@ -18,7 +18,7 @@ const Home = () => {
                 </nav>
             </div>
             <div>
-                All artistic renditions, clipart, and icons were created by me.
+                All artistic renditions, clipart, and icons were created by me, (c) Habitual Nightmare/Nightmare Panthera.
             </div>
         </div>
     );
